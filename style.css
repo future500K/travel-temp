@@ -365,7 +365,7 @@ body{
 
 .from-left,
 .from-right{
-    transition: transform 400ms ease-in;
+    transition: transform 300ms ease-in;
 }
 
 .from-left.appear,
