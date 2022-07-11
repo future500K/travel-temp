@@ -396,7 +396,16 @@ body{
 }
 
 @media only screen and (max-width:880px){
-    .nav{ 
+   
+    html{
+       overflow-x:hidden;
+        }
+   
+    body{
+       overflow-x:hidden;
+        }
+   
+    .nav{
     display: none;  
         } 
  
