@@ -403,6 +403,21 @@ body{
 
 }
 
+@media only screen and (max-width:500px){
+    .typing::after{
+        display: none;
+    }
+   
+   .header h1{ 
+        font-size: 1rem; 
+        } 
+   
+   .landing h1{
+      font-size:2rem;
+    }
+
+}
+
 @media only screen and (max-width:880px){
    
     html{
@@ -431,13 +446,14 @@ body{
    }
 
    .landing h1{
-       font-size: 4em;
+       font-size: 2.5rem;
    }
 
    .small{
       margin: 0 auto;
-     
-   }
+      font-size: 1rem;
+      justify-content: center;
+     }
 
    .intro{
     height: auto;
