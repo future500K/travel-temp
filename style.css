@@ -152,6 +152,10 @@ body{
     margin-bottom:10%;
 }
 
+.fig p{
+   overflow-y:hidden;
+}
+
 .imgBox1{
     display: flex;
     justify-content: flex-start;
