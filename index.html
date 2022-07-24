@@ -160,8 +160,6 @@
 
     <script>
        let timeLine= gsap.timeline({defaults: {Easings:Expo.EaseOut}});
-       
-       timeLine.from('.landing', { scale: 0.3, duration: 3, opacity: 0});
        timeLine.add('start')
                 .to('.header',{clipPath: 'polygon(0 0, 100% 0, 100% 100%, 0 100%)', duration:2.5 }, 'start')
                 .to('.landing article',{clipPath: 'polygon(0 0, 100% 0, 100% 100%, 0 100%)', duration:2.5 }, 'start');
